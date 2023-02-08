@@ -1,2 +1,4 @@
-print (a)
-#test commit via CLI
+a = 15
+print(a)
+b = 10
+print(b)
