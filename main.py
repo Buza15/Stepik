@@ -1,2 +1,7 @@
 # here I'll test everything regarding Git
-#Test new
+
+a = int(input("Enter a number:"))
+
+b = a + 2
+
+print("Your number + 2 =", b)
