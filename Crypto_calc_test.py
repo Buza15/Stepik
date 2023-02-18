@@ -17,3 +17,4 @@ else:
  new_vlaue = curr_result * new_price
  print("Можно продать за", new_vlaue, "$")
  print("Вы вложили", value, "$ и получили", new_vlaue, "$")
+ print("Чистая прибыль составила", new_vlaue - value, "$")
