@@ -1,5 +1,5 @@
-value = int(input("На сколько $ покупаем? :"))
-curr_price = int(input("Текущая цена монеты:"))
+value = float(input("На сколько $ покупаем? :"))
+curr_price = float(input("Текущая цена монеты:"))
 
 curr_result = value / curr_price
 
