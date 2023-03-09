@@ -19,7 +19,7 @@ ticker = client.get_symbol_ticker(symbol=crypto_symbol)
 # Get the price in USDT
 current_price = ticker['price']
 
-print(f"The current price of {crypto_symbol} is {current_price}")
+print(f"The current price of {crypto_symbol} is {current_price}$")
 
 to_calculate = current_price
 
@@ -50,3 +50,5 @@ else:
   print("Можно продать за", new_vlaue, "$")
   print("Вы вложили", value, "$ и остаток составил", new_vlaue, "$")
   print("Убыток составил", profit, "$")
+
+#test
