@@ -7,3 +7,4 @@ if a % 1000 == 0 and a % 100 == 0:
 else:
     print("NO")
 
+print("test")
