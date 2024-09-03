@@ -11,7 +11,9 @@ client = Client(api_key, api_secret)
 
 # Replace 'CRYPTO_SYMBOL' with the symbol of the crypto token you want to get the price for, e.g. 'BTCUSDT', 'ETHUSDT', etc.
 
-crypto_symbol = input("Выбираем крипту:") + "USDT"
+print(" "*6,"-"*20,"Привет!","-"*20,"\nЭта программа поможет посчитать прибыль или убыток вложенных средств в крипте!\n"," "*23)
+
+crypto_symbol =input("                        Выбери крипту:") + "USDT"
 
 # Get the current price from Binance API
 ticker = client.get_symbol_ticker(symbol=crypto_symbol)
@@ -19,7 +21,7 @@ ticker = client.get_symbol_ticker(symbol=crypto_symbol)
 # Get the price in USDT
 current_price = ticker['price']
 
-print(f"The current price of {crypto_symbol} is {current_price}$")
+print(f"Текущая стоимость {crypto_symbol} {current_price}$")
 
 to_calculate = current_price
 
