@@ -39,7 +39,7 @@ print("+ или -")
 next = input()
 
 if next == "-":
- print("OK")
+ print("Хорошо, пока!")
 else:
  new_price = float(input("Новая цена монеты:"))
  new_vlaue = curr_result * new_price
